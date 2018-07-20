@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace BaseBall
 {
-    class Answer
+    class Answer : NumberContainer
     {
-        private int[] _numbers;
+        protected override string GetShowText()
+        {
+            return "> 컴퓨터가 생성한 정답";
+        }
 
         public void Generate()
         {
@@ -36,11 +39,6 @@ namespace BaseBall
                     index++;
                 }
             }
-        }
-
-        public int Get(int index)
-        {
-            return _numbers[index];
         }
     }
 }

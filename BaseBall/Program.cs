@@ -21,6 +21,8 @@ namespace BaseBall
 
             while (true)
             {
+                answer.Show();
+
                 // 추측을 입력받는다
                 guess.Input();
 

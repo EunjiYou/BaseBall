@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Answer.cs" />
+    <Compile Include="NumberContainer.cs" />
     <Compile Include="Guess.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program.partial.cs" />
